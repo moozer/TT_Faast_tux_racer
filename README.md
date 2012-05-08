@@ -37,7 +37,9 @@ HowTo
     
     Again, put a shortcut on the desktop.
 
-5. grab the xml file from this TT
+5. Download the FAAST config file from https://github.com/moozer/TT_Faast_tux_racer/raw/master/TuxComWorking.xml
+
+    Save it where you may find it again
 
 6. Start FAAST, connect to the kinect, and load the xml file
 
