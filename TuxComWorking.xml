@@ -1,0 +1,78 @@
+<sensor>
+	<tracker>Microsoft</tracker>
+	<mirrormode>true</mirrormode>
+	<smoothing>true</smoothing>
+	<smoothingfactor>0.5</smoothingfactor>
+	<correction>0.5</correction>
+	<prediction>0.5</prediction>
+	<jitter>0.05</jitter>
+	<deviation>0.04</deviation>
+</sensor>
+<server>
+	<transformations>Global coordinates</transformations>
+	<automaticassignment>true</automaticassignment>
+</server>
+<gestures>
+	<gesture name="TUX Left" timeout="0">
+		<input type="0">
+			<descriptor>lean</descriptor>
+			<descriptor>left</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>10</descriptor>
+			<descriptor>degrees</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>hold</descriptor>
+			<descriptor>j</descriptor>
+			<descriptor>until complete</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+	<gesture name="TUX Right" timeout="0">
+		<input type="0">
+			<descriptor>lean</descriptor>
+			<descriptor>right</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>10</descriptor>
+			<descriptor>degrees</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>hold</descriptor>
+			<descriptor>l</descriptor>
+			<descriptor>until complete</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+	<gesture name="TUX Fwd" timeout="0">
+		<input type="0">
+			<descriptor>lean</descriptor>
+			<descriptor>forward</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>10</descriptor>
+			<descriptor>degrees</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>hold</descriptor>
+			<descriptor>i</descriptor>
+			<descriptor>for</descriptor>
+			<descriptor>180</descriptor>
+		</output>
+	</gesture>
+	<gesture name="TUX Back" timeout="0">
+		<input type="0">
+			<descriptor>lean</descriptor>
+			<descriptor>backward</descriptor>
+			<descriptor>at least</descriptor>
+			<descriptor>13</descriptor>
+			<descriptor>degrees</descriptor>
+		</input>
+		<output type="0">
+			<descriptor>hold</descriptor>
+			<descriptor>k</descriptor>
+			<descriptor>until complete</descriptor>
+			<descriptor>0</descriptor>
+		</output>
+	</gesture>
+	<gesture name="TUX HBrake" timeout="0"/>
+</gestures>
+
